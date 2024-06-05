@@ -1,0 +1,71 @@
+{
+  "tim": {
+    "default": {
+      "fine_tuning_steps": 50,
+      "fine_tuning_lr": 0.001,
+      "cross_entropy_weight": 1.0,
+      "marginal_entropy_weight": 1.0,
+      "conditional_entropy_weight": 0.5,
+      "temperature": 10.0,
+      "feature_normalization": 2
+    }
+  },
+  "feat": {
+    "resnet12_mini_imagenet": {
+      "checkpoint_path": "data/models/feat_resnet12_mini_imagenet.pth",
+      "feature_dimension": 640
+    },
+    "resnet12_tiered_imagenet": {
+      "checkpoint_path": "data/models/feat_resnet12_mini_imagenet.pth",
+      "feature_dimension": 640
+    }
+  },
+  "finetune": {
+    "default": {
+      "fine_tuning_steps": 50,
+      "fine_tuning_lr": 0.0001,
+      "temperature": 10.0,
+      "feature_normalization": 2
+    }
+  },
+  "pt_map": {
+    "default": {
+      "fine_tuning_steps": 30,
+      "fine_tuning_lr": 0.3,
+      "lambda_regularization": 10,
+      "power_factor": 0.5,
+      "feature_normalization": 2
+    }
+  },
+  "transductive_finetuning": {
+    "default": {
+      "fine_tuning_steps": 10,
+      "fine_tuning_lr": 0.0001,
+      "temperature": 10.0,
+      "feature_normalization": 2
+    }
+  },
+  "laplacian_shot": {
+    "default": {
+      "inference_steps": 10,
+      "knn": 3,
+      "lambda_regularization": 0.1,
+      "feature_normalization": 2
+    }
+  },
+  "bd_cspn": {
+    "default": {
+      "feature_normalization": 2
+    }
+  },
+  "prototypical_networks": {
+    "default": {
+      "feature_normalization": 2
+    }
+  },
+  "simple_shot": {
+    "default": {
+      "feature_normalization": 2
+    }
+  }
+}
