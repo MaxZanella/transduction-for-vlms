@@ -58,7 +58,7 @@ def main():
 
     cfg['seed'] = args.seed
     cfg['root_path'] = args.root_path
-
+    cfg['method'] = args.method
     cfg['shots'] = args.shots
 
     cfg['prototypes_path'] = args.prototypes_path
