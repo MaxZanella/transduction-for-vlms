@@ -156,7 +156,14 @@ This repository is mainly based on [CoOp](https://github.com/KaiyangZhou/CoOp), 
 
 If you find this repository useful, please consider citing our paper:
 ```
-@inproceedings{transclip}
+@inproceedings{zanella2024boosting,
+      title={Boosting Vision-Language Models with Transduction}, 
+      author={Maxime Zanella and Benoît Gérin and Ismail Ben Ayed},
+      year={2024},
+      eprint={2406.01837},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 
