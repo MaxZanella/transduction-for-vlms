@@ -169,7 +169,7 @@ If you find this repository useful, please consider citing our paper:
 
 ## Contact
 
-For any inquiries, please contact us at [maxime.zanella@uclouvain.be](mailto:maxime.zanella@uclouvain.be) and [benoit.gerin@uclouvain.be](mailto:benoit.gerin@uclouvain.be) or feel free to [create an issue](https://github.com/TransCLIP/issues).
+For any inquiries, please contact us at [maxime.zanella@uclouvain.be](mailto:maxime.zanella@uclouvain.be) and [benoit.gerin@uclouvain.be](mailto:benoit.gerin@uclouvain.be) or feel free to [create an issue](https://github.com/transduction-for-vlms/issues).
 
 
 ## License
