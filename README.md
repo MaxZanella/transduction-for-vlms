@@ -15,6 +15,12 @@ We present TransCLIP, a novel and computationally efficient transductive approac
   <em>Figure 1: TransCLIP improves significantly zero-shot models and few-shot methods based either on adapter or prompt tuning for a large variety of encoders, with size up to 8 billion parameters.</em>
 </p>
 
+## 🔥Complementary projects w/ TransCLIP
+
+TransCLIP has successfully enhanced remote sensing Vision-Language Models, achieving an average accuracy improvement of over **10%**. 
+
+Check the [github project](https://github.com/elkhouryk/RS-TransCLIP).
+
 
 ## Table of Contents
 
@@ -80,7 +86,7 @@ The drive is organized as follows:
 ---
 
 ## Usage
-We present the basic usage to get started with our method. You have to pass the datasets folder path and the pre-computed prototypes folder path. Every script has pre-set parameters but you can change them manually.
+We present the basic usage to get started with our method. You have to pass the datasets folder path and the pre-computed prototypes folder path. Each script has pre-set parameters but you can change them manually.
 
 ### CLIP + TransCLIP-ZS
 TransCLIP-ZS based on the textual embeddings of the zero-shot model.
