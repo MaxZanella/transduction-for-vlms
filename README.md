@@ -15,11 +15,11 @@ We present TransCLIP, a novel and computationally efficient transductive approac
   <em>Figure 1: TransCLIP improves significantly zero-shot models and few-shot methods based either on adapter or prompt tuning for a large variety of encoders, with size up to 8 billion parameters.</em>
 </p>
 
-## 🔥Complementary projects w/ TransCLIP
+## 🔥 Complementary projects w/ TransCLIP
 
 TransCLIP has successfully enhanced remote sensing Vision-Language Models, achieving an average accuracy improvement of over **10%**. 
 
-Check the [github project](https://github.com/elkhouryk/RS-TransCLIP).
+Feel free to check the [paper](https://arxiv.org/abs/2409.00698) and the [GitHub project](https://github.com/elkhouryk/RS-TransCLIP) !
 
 
 ## Table of Contents
@@ -170,6 +170,15 @@ If you find this repository useful, please consider citing our paper:
 }
 ```
 
+You can also cite our RS-TransCLIP paper:
+```
+@article{elkhoury2024enhancing,
+title={Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification},
+author={Karim El Khoury and Maxime Zanella and Beno{\^\i}t G{\'e}rin and Tiffanie Godelaine and Beno{\^\i}t Macq and Sa{\"i}d Mahmoudi and Christophe De Vleeschouwer and Ismail Ben Ayed},
+journal={arXiv preprint arXiv:2409.00698},
+year={2024}
+}
+```
 
 ## Contact
 
