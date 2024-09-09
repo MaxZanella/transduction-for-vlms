@@ -17,9 +17,15 @@ We present TransCLIP, a novel and computationally efficient transductive approac
 
 ## 🔥 Complementary projects w/ TransCLIP
 
-TransCLIP has successfully enhanced remote sensing Vision-Language Models, achieving an average accuracy improvement of over **10%**. 
+🛰️ TransCLIP has successfully enhanced remote sensing Vision-Language Models, achieving an average accuracy improvement of over **10%**. 
 
 Feel free to check the [paper](https://arxiv.org/abs/2409.00698) and the [GitHub project](https://github.com/elkhouryk/RS-TransCLIP) !
+
+🔬 TransCLIP has successfully enhanced histopathology Vision-Language Models, achieving an average accuracy improvement of over **6%** on Quilt, **7%** on CONCH and **10%** on PLIP. 
+
+Feel free to check the [paper](https://arxiv.org/abs/2409.01883) and the [GitHub project](https://github.com/FereshteShakeri/Histo-TransCLIP) !
+
+
 
 
 ## Table of Contents
